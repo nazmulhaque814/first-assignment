@@ -26,8 +26,13 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     color: #2c3e50;
+    font-size: 100px;
 }
-
+.download-btn .btn{
+    font-size: 60px;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
 /* Button styles */
 .btn {
     display: inline-block;
@@ -50,69 +55,143 @@ nav {
     background-image: url(../first-assignment/assets/Hero-bg.png);
     text-align: center;
     padding: 4rem 2rem;
+    font-size: 50px;
 }
 
 .hero h1 {
-    font-size: 2rem;
+    font-size: 150px;
     margin-bottom: 2rem;
     color: #2c3e50;
 }
 .hero p{
     margin: 25px;
 }
+.hero .btn{
+    margin-top: 50px;
+    padding: 20px 40px;
+    font-size: 70px;
+    border-radius: 20px;
+    background-color: #0f0f0f;
+    color: white;
+}
  .wd{
+    margin-top: 120px;
     background-color:rgb(244, 244, 244);
     text-align: center;
     padding: 90px 200px;
-    width: 95%;
+    width: 80%;
     border: none;
-    margin: 100px;
+    margin-left: 500px;
+    font-size: 70px;
  }
-.feature-card {
-    padding: 20px 30px;
-    background-color: #fff;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    text-align: left;
-    width: 100%;
-    margin: 0px;
-    margin-top: 40px;
+ .wd p{
+      width: 80%;
+        margin-left: 350px;
+ }
+ .fe{
+    padding: 100px 400px;
+    background-color: white;
+    text-align: start;
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 120px;
+ }
+ .fe .im{
+    margin-left: 1400px;
+    width: 50%;
+    margin-top: 80px;
     
-}
-.feature-card .im{
-    padding: 0 400px;
-    margin-top: -250px;
-}
-.feature-card h3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+ }
+ .fe h3 {
+    margin-left: -250px;
+    margin-top: -950px;
     width: 50%;
+ }
+ .fe p{
+    margin-left: -250px;
+    width: 60%;
     margin-top: 20px;
-}
-
-.feature-card p {
-    margin-bottom: 1.5rem;
+ }
+ .fe .btn{
+    margin-top: 60px;
+    margin-left: -250px;
+ }
+ .fea{
+    padding: 100px 400px;
+    background-color: white;
+    text-align: start;
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 120px;
+ }
+ .fea h3 {
+    width: 65%;
+    margin-top: -1000px;
+    margin-left: 900px;
+ }
+ .fea p{
+    width: 60%;
+    margin-left: 900px;
+    margin-top: 20px;
+ }
+ .fea .ima{
     width: 50%;
+    margin-left: -250px;
+ }
+ .fea .btn{
+    margin-top: 60px;
+    margin-left: 900px;
+ }
+ .feau{
+    padding: 100px 400px;
+    background-color: white;
+    text-align: start;
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 120px;
+ }
+ .feau .im{
+    width: 50%;
+    margin-left: 1400px;
+    margin-top: -750px;
+    margin-bottom: -160px;
 }
-.feature-card .de{
-    display: flex;
-    margin-left: 300px;
-    width: 50%;  
+.feau h3 {
+        width: 65%;
+        margin-top: 60px;
+        margin-left: -250px;
 }
-.feature-card .ima{
-  padding-top: -300px;
-  margin-top: -300px;
+.feau p{
+    width: 60%;
+    margin-left: -250px;
+    margin-top: 20px;
+    margin-bottom: -160px;
 }
- .m{
+.feau .btn{  
+    margin-left: -250px;
+    margin-top: 40px;
+}
+.m{ 
+    font-size: 80px;
     text-align: center;
     padding: 20px 0px;
-    width: 65%;
-    /* border: none; */
-    margin: 300px;
-    margin-top: -50px;
+    width: 50%;
+    border: none;
+    margin: 500px;
+    margin-top: 150px;
+    margin-left: 1200px;
 }
 .w{
     margin-top: 20px;
+}
+.w1{
+    margin-top: 120px;
+    background-color: white;
+    padding: 70px 70px;
+    width: 80%;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(236, 242, 242);
 }
 /* Commitment section */
 .commitment {
@@ -120,6 +199,7 @@ nav {
     /* background-color: #f8f9fa; */
     text-align: center;
     margin-top: -280px;
+    font-size: 70px;
 }
 .commitment .b{
    margin-top: -40px;
@@ -127,22 +207,31 @@ nav {
 .commitment h2 {
     margin-bottom: 3rem;
     color: #2c3e50;
+    margin-top: 20px;
+    text-align: center;
 }
 .skill-card .ig{
     padding-top: -100px;
     padding-right: 250px;
+    width: 30%;
+    margin-top: 80px;
+    display: flex;
+    margin: 40px;
 }
 .skill-card .i{
     padding-right: 270px;
-    margin-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    margin: 40px;
 }
 .skill-card .bt{
-    padding-right: 220px;
+    padding-right: 1000px;
 }
 .skill-card .l{
     padding-right: 10px;
     width: 100%;
     text-align: left;
+    margin: 40px;
 }
 
 .skills-container {
@@ -156,6 +245,8 @@ nav {
 .skills-section h3 {
     margin-bottom: 2rem;
     color: #2c3e50;
+    font-size: 100px;
+    margin-top: 260px;
 }
 
 .skills {
@@ -167,7 +258,7 @@ nav {
 }
 .skills1{
     display: flexbox;
-    margin: 30px;
+    margin: 150px;
 }
 .skill-card{
     padding: 2rem;
@@ -184,29 +275,32 @@ nav {
     border: solid;
 }
 .skill-card1 .ig{
-    /* padding-top: -100px; */
     padding-right: 1000px;
     display: flex;
-    width: 70px;
-    height: 60px;
+    width: 8%;
+    height: 60%;
     padding-right: 0px;
-    margin-top: -60px;
+    margin-top: -280px;
+    margin-left: 80px;
 }
 .skill-card1 h4{
-    padding-right: 760px;
+    display: flex;
     padding-top: -100px;
-    font-size: 20px;
+    font-size: 100px;
+    margin-left: 500px;
 }
 .skill-card1 p{
-    padding-left: 90px;
+    padding-left: 490px;
     padding-top: 5px;
     text-align: start;
+
 }
 .skills-section .btn1{
         border: none;
         background-color: transparent;
-        padding-right: 760px;
+        display: flex;
         margin-top: 30px;
+        margin-left: 500px;
 }
 .skill-card2{
     padding: 2rem;
@@ -220,27 +314,29 @@ nav {
 .skill-card2 .ig{
     padding-right: 1000px;
     display: flex;
-    width: 130px;
-    height: 80px;
+    width: 10%;
+    height: 60%;
     padding-right: 0px;
-    margin-top: -60px;
+    margin-top: -280px;
+    margin-left: 80px;
 }
 .skill-card2 h4{
-    padding-right: 650px;
-    padding-top: -100px;
-    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 100px;
+    margin-left: 600px;
 }
 .skill-card2 p{
-    padding-left: 150px;
+    padding-left: 600px;
     padding-top: 5px;
     text-align: start;
 }
 .skills-section .btn2{
-    /* padding-right: 70px; */
     border: none;
     background-color: transparent;
-    margin-top: 15px;
-    padding-right: 640px;
+    margin-top: 60px;
+    display: flex;
+    margin-left: 600px;
 }
 
 .skill-card3{
@@ -253,78 +349,69 @@ nav {
     margin-top: 20px;
 }
 .skill-card3 .ig{
-    padding-right: 1000px;
     display: flex;
-    width: 90px;
-    height: 90px;
-    padding-right: 0px;
-    margin-top: -70px;
+    width: 9%;
+    height: 60%;
+    margin-top: -400px;
+    margin-left: 40px;
 }
 .skill-card3 h4{
-    padding-right: 720px;
-    padding-top: -50px;
-    font-size: 20px;
+    font-size: 100px;
+    display: flex;
+    margin-left: 500px;
 }
 .skill-card3 p{
     padding-left: 100px;
     padding-top: 5px;
     text-align: start;
+    margin-left: 400px;
 }
 .skills-section .btn3{
-    /* padding-right: 70px; */
     border: none;
     background-color: transparent;
-    margin-top: 15px;
-    padding-right: 730px;
+    margin-top: 35px;
+    display: flex;
+    margin-left: 500px;
 }
-
-/* Contact section */
-.contact {
+.contact{
     background-image: url(../first-assignment/assets/handshake.jpg);
-    padding: 10px 10px 40px;
+    font-size: 60px;
+    width: 80%;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+.contact h2{
+    margin-left: 1800px;
+    color: #f6f7f8;
+    padding-top: 150px;
+}
+.contact p{
+    width: 60%;
+    color: #f6f7f8;
+    margin-left: 1000px;
     text-align: center;
-    border: none;
-    margin-top: -60px;
-    border-radius: 20px;
-    /* padding: 90px 200px; */
-    width: 85%;
-    margin-left: 100px;
-    color: white;
-}
-
-.contact h1 {
-    margin-bottom: 1rem;
-    color: #fefefe;
-    margin-top: 40px;
-}
-form input[type="text"]{
-    height:40px;
-    border-radius: 10px;
-    background-color: white;
-    /* display: block; */
-    width: 70%;
-    padding: 20px 20px;
-    margin-bottom: -50px; 
-    border: none;
+    padding-top: 30px;
 }
 .contact .e{
-    margin-left: -100px;
-   /* margin-bottom: -250px; */
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-form p {
-    margin-bottom: 1rem;
+    height: 100px;
+    margin-left: 900px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 50%;
+    font-size: 70px;
+    padding: 80px 60px;
+    border-radius: 20px;
+    border: none;
 }
 .contact .btn{
-    margin-left: 350px;
-    padding: 13px 20px 12px 20px;
+    font-size: 60px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    height: 160px;
+    width: 350px;
+    margin-bottom: 150px;
     border: none;
-    margin: 10px;
 }
 
 /* Footer */
@@ -334,15 +421,16 @@ footer {
     background-color: #f6f7f8;
     color: rgb(16, 16, 16);
     margin-top: 60px;
+    padding-left: 2800px;
 }
 footer .v{
-    margin-left: -800px;
-    margin-top: -8px;
+    padding-top: 60px;
     margin-bottom: -25px;
+    font-size: 60px;
+    margin-left: -6000px;
 }
 footer .j{
     margin-left: 800px;
-    /* margin: 50px; */
 }
 footer .k{
     margin-left: 950px;
